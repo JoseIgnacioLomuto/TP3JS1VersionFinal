@@ -32,63 +32,72 @@
 <div class="card-group">
         <div class="card border-primary mx-auto text-center">
           <div class="card-body ">
-            <h5 class="card-title">Estudiante</h5>
+            <h5 class="card-title">Perro chico</h5>
             <p class="card-text">Tienen un descuento.</p>
             <p class="card-text">80%</p>
-            <p class="card-text">*Presentar documentación</p>
+            <p class="card-text">*Presentar libreta de vacunas</p>
           </div>
         </div>
         <br>
         <div class="card border-success text-center offset-md-1 ">
           <div class="card-body">
-            <h5 class="card-title">Trainee</h5>
+            <h5 class="card-title">Perro normal</h5>
             <p class="card-text">Tienen un descuento.</p>
             <p class="card-text">50%</p>
-            <p class="card-text">*Presentar documentación</p>
+            <p class="card-text">*Presentar libreta de vacunas</p>
           </div>
         </div>
         <br>
         <div class="card border-warning text-center offset-md-1">
           <div class="card-body">
-            <h5 class="card-title">Junior</h5>
+            <h5 class="card-title">Perro grande</h5>
             <p class="card-text">Tienen un descuento.</p>
             <p class="card-text">15%</p>
-            <p class="card-text">*Presentar documentación</p>
+            <p class="card-text">*Presentar libreta de vacunas</p>
           </div>
           </div>
       </div>
       <br>
       <br>
+
+      <p style="text-align:center;"> <img src="https://s1.ppllstatics.com/laverdad/www/multimedia/201707/21/media/cortadas/perretes-ksGC-U40396701700H5H-624x385@La%20Verdad.jpg"> </p>
+
       <!--- titulo venta / valor de ticket ---> 
       <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-        <h6>VENTA</h6>
+        <h6>PASEO DE LOS PERROS</h6>
+        <br>
+        
+        <h3>VENTA</h3>
         <h1>VALOR DE TICKET $200</h1>
       </div>
       <!--- formulario ---> 
       <form>
-        <div class="row">
-          <div class="col">
-            <input type="text" class="form-control" placeholder="Nombre">
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputNombre">Nombre</label>
+            <input type="text" class="form-control" id="Nombre" placeholder="Nombre">
           </div>
-          <div class="col">
-            <input type="text" class="form-control" placeholder="Apellido">
+          <div class="form-group col-md-6">
+            <label for="inputApelido">Apellido</label>
+            <input type="text" class="form-control" id="Apellido" placeholder="Apellido">
           </div>
         </div>
-      </form>
-      <form>
-        <div>
-            <div class="form-group">
-                <input type="text" class="form-control" id="Correo" placeholder="Correo">
-              </div>
+        <div class="form-group">
+          <label for="correo">Correo</label>
+          <input type="text" class="form-control" id="inputCorreo" placeholder="Email">
         </div>
-</form>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+        <button type="reset" class="btn btn-outline-success">Reiniciar</button>
+        </form>
 <br>
-<p>Cantidad</p>
+
+
+<p>Comprar tickets</p>
 
 <input type="number" id="n1" class="form-control" placeholder="Cantidad"> <br>
-<button style="color:blue" id="porcentaje1">Estudiante</button>
-<button style="color:green" id="porcentaje2">Trainee</button>
-<button style="color:yellow" id="porcentaje3">Junior</button> <br> <br> <br>
+<button style="color:blue" id="porcentaje1">Chico</button>
+<button style="color:green" id="porcentaje2">Normal</button>
+<button style="color:yellow" id="porcentaje3">Grande</button> <br> <br> <br>
 <button style="color:red" id="calcular">Calcular</button> <br>
 
 <br>
